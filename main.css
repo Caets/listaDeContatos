@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    padding-top: 100px;
+    padding-left: 500px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    margin: 0, auto;
+}
+
+table {
+    table-layout: fixed;
+    margin: 0 ,auto;
+    border: 1px solid;
+    text-align: center;
+    width: 30%;
+}
+
+tr {
+    text-align: center;
+    padding: 16px;
+}
+
+td {
+    text-align: center;
+    padding: auto;
+    padding-right: 5px;
+    border: 1px solid;
+    width: 70%;
+}
